@@ -1,6 +1,7 @@
 # AndelaStackLite #Project for Interview for VLF.
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
+
 Required Features
 1. Users can create an account and log in.
 2. Users can post questions.
