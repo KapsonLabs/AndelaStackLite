@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile - Stackoverflow Lite</title>
+    <link rel="stylesheet" href="./css/styles.css">    
+</head>
+<body>
+    <div class="main">
+        <!-- navbar -->
+        <div class="navbar navbar-primary">
+            <div class="container">
+                <div class="pull-left mobi-hide">
+                    <ul class="nav text-center">
+                        <li>
+                            <a href="#">
+                                <img class="hatch logo" src="./assets/img/logo.png" alt="logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pull-right">
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="ask.html">Ask</a>
+                        </li>
+                        <li>
+                            <a href="questions.html">Questions</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="text-white floating btn btn-round mt--5 background-blue">
+                                Login
+                            </a>                                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ./navbar -->
+            
+            <!-- list -->
+        <div class="wrapper">
+            <div class="clearfix"></div>
+            <div class="main-wrapper">
+               <div class="container">
+                   <div class="content-wrapper">
+                       <div class="flex-wrapper">
+                            <!-- statistics widget -->
+                            <div class="statistics">
+                                <div class="statistics__card shadow-primary bg-dark-blue">
+                                    <div class="statistics__card__title pull-left">
+                                        All Questions
+                                    </div>
+                                    <div class=""></div>
+                                    <div class="statistics__card__value">89</div>
+                                </div>
+                            </div>
+                            <!-- ./ statistics -->
+
+                            <!-- statistics widget -->
+                            <div class="statistics">
+                                    <div class="statistics__card shadow-primary bg-white">
+                                        <div class="statistics__card__title pull-left">
+                                            All Answers
+                                        </div>
+                                        <div class=""></div>
+                                        <div class="statistics__card__value">89</div>
+                                    </div>
+                            </div>
+                            <!-- ./ statistics -->
+
+                            <!-- statistics widget -->
+                            <div class="statistics">
+                                    <div class="statistics__card shadow-primary bg-light-blue">
+                                        <div class="statistics__card__title pull-left">
+                                            All Votes
+                                        </div>
+                                        <div class=""></div>
+                                        <div class="statistics__card__value">109</div>
+                                    </div>
+                            </div>
+                            <!-- ./ statistics -->
+                       </div>
+                   </div>
+
+                   <!-- popular questions -->
+                   <div class="col-6">
+                        <div class="panel shadow-primary">
+                            <div class="panel__heading" >
+                                <div class="panel__heading__title text-primary">
+                                    Popular Questions
+                                </div>                                                        
+                            </div>
+                            <div class="panel__body m-20">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table__header shadow-primary bg-primary r-6">
+                                            <th>Answers</th>
+                                            <th>Question</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="table__tag">12</div>
+                                            </td>
+                                            <td>
+                                                Django Bootstrap modal box pops up but Ajax submit failing.
+                                            </td>
+                                            <td>
+                                                23/09/2018
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="table__tag">9</div>
+                                            </td>
+                                            <td>
+                                                How to use celery to handle background asynchronous tasks in Django?
+                                            </td>
+                                            <td>
+                                                20/09/2018
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>                                    
+                            </div>
+                        </div>
+                   </div> 
+                   <!-- ./popular -->
+                   <!-- recent questinos -->
+                   <div class="col-6">
+                        <div class="panel shadow-primary">
+                            <div class="panel__heading" >
+                                <div class="panel__heading__title text-primary">
+                                    Recent Questions
+                                </div>                                                        
+                            </div>
+                            <div class="panel__body m-20">
+                                <table class="table">
+                                    <thead>
+                                        <tr class="table__header shadow-primary bg-primary r-6">
+                                            <th>Answers</th>
+                                            <th>Question</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <div class="table__tag">15</div>
+                                            </td>
+                                            <td>
+                                                How to integrate Geo-Field Tagging in Django.
+                                            </td>
+                                            <td>
+                                                23/09/2018
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="table__tag">3</div>
+                                            </td>
+                                            <td>
+                                                What does an Integrity error mean in Django?
+                                            </td>
+                                            <td>
+                                                20/09/2018
+                                            </td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>                                     
+                            </div>
+                        </div>
+                   </div>
+                   <!-- ./recent -->
+                                     
+               </div>
+            </div>
+            <!-- ./list -->
+        </div>
+
+    </div>
+</body>
+
+<script src="./js/main.js"></script>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ask &amp; Question - Stackoverflow Lite</title>
+    <link rel="stylesheet" href="./css/styles.css">    
+</head>
+<body>
+    <div class="main">
+        <div class="navbar navbar-primary">
+            <div class="container">
+                <div class="pull-left mobi-hide">
+                    <ul class="nav text-center">
+                        <li>
+                            <a href="#">
+                                <img class=" logo" src="./assets/img/logo.png" alt="logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pull-right">
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="ask.html">Ask</a>
+                        </li>
+                        <li>
+                            <a href="questions.html">Questions</a>
+                        </li>
+                        <li>
+                            <a href="profile.html">Profile</a>
+                        </li>
+                        <li>
+                            <a href="login.html" class="text-white floating btn btn-round mt--5 background-blue">
+                                Login
+                            </a>                                
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <!-- ./navbar -->
+            <!-- list -->
+        <div class="wrapper">
+            <div class="clearfix"></div>
+            <div class="main-wrapper">
+               <div class="container">
+                   <div class="col-10">
+                        <div class="panel bg-white">
+                            <div class="panel__heading" >
+                                <div class="mega-text  text-primary">
+                                        Ask your question
+                                </div>                                                        
+                            </div>
+                            <div class="panel__body m-20">
+                                <!-- question -->
+                                <form class="form-ask">
+                                    <div class="">
+                                        <label>Question Title</label>
+                                        <input class="input-control" type='text' placeholder="Write question title here.">
+                                    </div>
+
+                                    <div class="">
+                                        <label>Question Body</label>
+                                        <textarea class="input-control" placeholder="Explain question here... Include code snippets if you please"></textarea>
+                                        
+                                    </div>
+                                   
+                                    <div class="">
+                                        <button class="pull-left btn btn-primary background-blue p-15 btn-block">
+                                            Post Your Question
+                                        </button>
+                                    </div> 
+                            </form>
+                            <!-- ./question -->
+                                    
+                            </div>
+                        </div>
+                   </div>                  
+               </div>
+            </div>
+            <!-- ./list -->
+        </div>
+    </div>
+</body>
+
+<script src="./js/main.js"></script>
+</html>
