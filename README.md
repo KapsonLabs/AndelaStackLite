@@ -1,6 +1,9 @@
 # AndelaStackLite #Project for Interview for VLF.
 
+# CHALLENGE 1
+
 StackOverflow-lite is a platform where people can ask questions and provide answers.
+
 Required Features
 1. Users can create an account and log in.
 2. Users can post questions.
@@ -9,3 +12,19 @@ Required Features
 5. Users can view the answers to questions.
 6. Users can accept an answer out of all the answers to his/her question as the preferred
 answer.
+
+# CHALLENGE 2
+- user stories to setup and test API endpoints
+    user can get all questions. 
+    user can get a question
+    user can post a question. 
+    user can update a question
+    user can post an answer to a question. 
+- Setup the Flask server side of the application
+- Setup pytest python test framework 
+- Version your API using url versioning starting, with the letter “v”
+- Write tests for the API endpoints
+- Integrate TravisCI for Continuous Integration in your repository (with ​ ReadMe ​ badge). 
+- Integrate test coverage reporting (e.g. Coveralls) with badge in the ​ ReadMe. 
+- Obtain CI badges (e.g. from Code Climate and Coveralls) and add to ​ ReadMe . ​  
+- Ensure the app gets hosted on Heroku. 
