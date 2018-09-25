@@ -14,17 +14,17 @@ Required Features
 answer.
 
 # CHALLENGE 2
-- user stories to setup and test API endpoints
-    user can get all questions. 
-    user can get a question
-    user can post a question. 
-    user can update a question
-    user can post an answer to a question. 
-- Setup the Flask server side of the application
-- Setup pytest python test framework 
-- Version your API using url versioning starting, with the letter “v”
-- Write tests for the API endpoints
-- Integrate TravisCI for Continuous Integration in your repository (with ​ ReadMe ​ badge). 
-- Integrate test coverage reporting (e.g. Coveralls) with badge in the ​ ReadMe. 
-- Obtain CI badges (e.g. from Code Climate and Coveralls) and add to ​ ReadMe . ​  
-- Ensure the app gets hosted on Heroku. 
+1. user stories to setup and test API endpoints
+    - user can get all questions. 
+    - user can get a question
+    - user can post a question. 
+    - user can update a question
+    - user can post an answer to a question. 
+2. Setup the Flask server side of the application
+3. Setup pytest python test framework 
+4. Version your API using url versioning starting, with the letter “v”
+5. Write tests for the API endpoints
+6. Integrate TravisCI for Continuous Integration in your repository (with ​ ReadMe ​ badge). 
+7. Integrate test coverage reporting (e.g. Coveralls) with badge in the ​ ReadMe. 
+8. Obtain CI badges (e.g. from Code Climate and Coveralls) and add to ​ ReadMe . ​  
+9. Ensure the app gets hosted on Heroku. 
