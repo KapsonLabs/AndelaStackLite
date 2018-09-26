@@ -1,5 +1,7 @@
 # AndelaStackLite #Project for Interview for VLF.
 
+[![Build Status](https://travis-ci.com/KapsonLabs/AndelaStackLite.svg?branch=master)](https://travis-ci.com/KapsonLabs/AndelaStackLite)
+
 # CHALLENGE 1
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
