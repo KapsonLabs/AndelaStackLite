@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/KapsonLabs/AndelaStackLite.svg?branch=master)](https://travis-ci.com/KapsonLabs/AndelaStackLite)
 
+[![Coverage Status](https://coveralls.io/repos/github/KapsonLabs/AndelaStackLite/badge.svg?branch=master)](https://coveralls.io/github/KapsonLabs/AndelaStackLite?branch=master)
+
 # CHALLENGE 1
 
 StackOverflow-lite is a platform where people can ask questions and provide answers.
