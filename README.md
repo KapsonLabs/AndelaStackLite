@@ -30,3 +30,7 @@ answer.
 - Integrate test coverage reporting (e.g. Coveralls) with badge in the ​ ReadMe. 
 - Obtain CI badges (e.g. from Code Climate and Coveralls) and add to ​ ReadMe . ​  
 - Ensure the app gets hosted on Heroku. 
+
+#Tasks Completed
+[U.I Pages Link](https://kapsonlabs.github.io/AndelaStackLite/UI)
+[Pivotal Tracker Board Link](https://www.pivotaltracker.com/n/projects/2198665)
